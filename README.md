@@ -1,18 +1,23 @@
-## Getting Started
+## Padrão de Projeto DAO (Data Access Object)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ideia geral do padrão DAO
+Para cada entidae, haverá um obejto responsável por fazer acesso a dados relacionados a esta entidade. Por exemplo:
+    * Cliente: ClienteDao
+    * Produto: ProdutoDao
+    * Pedido: PedidoDao
 
-## Folder Structure
+Cada DAO será definido por uma interface, pois o acesso aos dados pode migrar de tecnologia. Então para que o sistema fique flexível e preserve o contrato dos objetos de acesso a dados.
 
-The workspace contains two folders by default, where:
+A injeção de dependência pode ser feita por meio do padrão Factory
+(diagrama 275)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Department entity class
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Entity class checklist:
+    Attributes
+    Constructors
+    Getters/Setters
+    hasCode and equals
+    toString
+    implements Seriazable
