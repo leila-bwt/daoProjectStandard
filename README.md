@@ -21,3 +21,7 @@ Entity class checklist:
     hasCode and equals
     toString
     implements Seriazable
+
+## Seller entity class
+Manterá a mesma estrutura / checklist da classe Department:
+  
