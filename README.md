@@ -24,4 +24,8 @@ Entity class checklist:
 
 ## Seller entity class
 Manterá a mesma estrutura / checklist da classe Department:
+
+## Implementação das Interfaces DepartmentDao e SellerDao
+
+O package 'model' comprende não só as entidades mas também as classes que fazem tranformações dessas entidades.
   
