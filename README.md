@@ -29,3 +29,7 @@ Manterá a mesma estrutura / checklist da classe Department:
 
 O package 'model' comprende não só as entidades mas também as classes que fazem tranformações dessas entidades.
   
+
+## Implementação classe sellerDaoJDBC   
+
+Criação classer SellerDaoJDB e DaoFActory - classe responsável por instanciar os DAOs
