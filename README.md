@@ -33,3 +33,6 @@ O package 'model' comprende não só as entidades mas também as classes que faz
 ## Implementação classe sellerDaoJDBC   
 
 Criação classer SellerDaoJDB e DaoFActory - classe responsável por instanciar os DAOs
+
+*findById implementation
+Implementação de resultSet para trazer os dados no formato de tabelas. Entretanto, como trabalhamos com POO, esses dados devem ser transformados em objetos associados.
